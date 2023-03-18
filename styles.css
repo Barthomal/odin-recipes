@@ -3,13 +3,21 @@ body {
     background-color: #CCD5AE;
 }
 
-img {
+.main {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 0;
     width: 50%;
     border: 5px solid #E9EDC9
+}
+
+table {
+    border: 1px solid;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
 }
 
 div.text-box {
@@ -27,7 +35,29 @@ div.text-box {
 
 }
 
-h1 {
+h1,
+h2 {
     text-align: center;
+}
+
+.top,
+h1 {
     background-color: #FAEDCD;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content-list {
+    text-align: center;
+    list-style-type: none;
+    font-size: 18px;
+
+}
+
+button {
+    background-color: #FAEDCD;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
 }
