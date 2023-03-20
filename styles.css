@@ -12,6 +12,53 @@ body {
     border: 5px solid #E9EDC9
 }
 
+.menu-container {
+    border: 3px black solid;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.menu-chili-container,
+.menu-soup-container,
+.menu-stew-container {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.menu-chili-text {
+    margin-top: -15px;
+    margin-left: 15px;
+}
+
+.soup-mini {
+    width: 74%;
+    height: auto;
+}
+
+.menu-soup-text {
+    margin-top: -15px;
+    margin-left: -32px;
+}
+
+.stew-mini {
+    width: 108%;
+    height: auto;
+}
+
+.menu-stew-text {
+    margin-top: -15px;
+    margin-left: 25px;
+}
+
+.menu-container,
+.menu-chili-text,
+.menu-stew-text,
+.menu-soup-text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
 table {
     border: 1px solid;
     display: block;
